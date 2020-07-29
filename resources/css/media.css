@@ -1,0 +1,36 @@
+/*css code goes here*/
+/*
+Author : Tridev sharma
+Project Name : Sarswatividya University
+Start Date : 03/05/2020
+*/
+
+
+@media screen and (min-width:1500px){
+    .wrapping{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:1800px){
+    .wrapping{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 978px){
+    .navigation{
+        margin-top: 2vw;
+    }
+    .top_header{
+        height: 2.5vw;
+    }
+    .social-icons{
+        margin-top: .3vw;
+    }
+    .mainnav li a{
+        font-size: 1.5vw;
+    }
+}
